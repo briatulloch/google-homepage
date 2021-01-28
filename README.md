@@ -1,4 +1,4 @@
-# This is my Google homepage clone
+This is my Google homepage clone
 
 You can find this project at the working URL:
 
