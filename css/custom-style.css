@@ -1,0 +1,137 @@
+html, body{
+    display:flex;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    flex-direction:column;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/*margin:0px and paddin:0px remove white space between bottom footer and bottom of page as well as left & right side of footer and page*/
+
+a{
+     margin-right:20px;
+     text-decoration:none;    
+ }
+ a:hover{
+     text-decoration: underline;
+ }
+
+ #navbar{
+     display:flex;
+     justify-content:flex-end;
+     margin-right: 5px;
+     margin-top:15px;
+     font-size: 13px;
+ }
+
+ #main{
+    display:flex;
+    flex-grow:1;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+/* #main code above allows footer content to remain at bottom*/
+ #logo{
+     text-align:center;
+ }
+ #search-bar-container{
+     text-align:center; 
+     margin-top:20px;
+     margin-bottom:20px;
+     position:relative;
+
+ }
+ #search{
+     padding-top:15px; 
+     padding-bottom:10px; 
+     outline:none;
+     width:500px;
+     border-radius:17px;
+     border: 1px solid #7471715d
+ }
+ /* outline:none removes the blue line you would get when you click on search bar*/
+ /* border-radius rounds out edges of the search bar*/
+ #search:hover{
+     box-shadow: 0 0 8px 2px rgb(219, 215, 215);
+ }
+ #magnifying-glass, #voice{
+     position:absolute;
+     top:0;
+     height:100%;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+
+ }
+ #magnifying-glass{
+     left:10px;
+ }
+ #voice{
+     right:10px;
+ }
+ #buttons{
+     text-align:center;   
+ }
+ 
+#google-search{
+    margin-right: 10px;
+    cursor:pointer; 
+    background:#F5F5F5;
+    border:0px;
+    padding:10px 14px 10px 14px;
+}
+#google-search:hover{
+    box-shadow: 0 0 2px 2px rgb(219, 215, 215);
+}
+#random-search{
+    cursor:pointer;
+    background: #F5F5F5;
+    border:0px;
+    padding:10px 14px 10px 14px;
+}
+#random-search:hover{
+    box-shadow: 0 0 2px 2px rgb(219, 215, 215);
+}
+#sign-in{
+    background:#4683ea;
+    color:white;
+    font-weight:bold;
+    padding: 8px 12px 8px 12px;
+    margin-top:0;
+    border-radius:1.5px;
+}
+/*border-radius rounds out edges of sign-in button*/
+#gmail{
+ margin-top:5px;
+}
+#images{
+ margin-top:5px;
+}
+#menu{
+ margin-top:5px;
+}
+#language{
+    text-align:center;
+    margin-top:35px;
+}
+#espanol{
+    font-size:14px;
+    color:black;
+}
+p{
+    font-size:14px;
+}
+#footer{
+    display:flex;
+    background:#ece9e9;
+    font-size:13.5px;
+    padding: 13px 15px 13px 15px; 
+    border:0.5px solid rgb(189, 183, 183);
+     
+}
+
+#privacy{
+ margin-left:auto;
+}
+/* moved privacy, terms & settings links to right side of footer*/
