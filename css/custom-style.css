@@ -6,7 +6,7 @@ html, body{
     flex-direction:column;
     font-family:Arial, Helvetica, sans-serif;
 }
-/*margin:0px and paddin:0px remove white space between bottom footer and bottom of page as well as left & right side of footer and page*/
+/*margin:0px and padding:0px remove white space between bottom footer and bottom of page as well as left & right side of footer and page*/
 
 a{
      margin-right:20px;
