@@ -10,7 +10,8 @@ html, body{
 
 a{
      margin-right:20px;
-     text-decoration:none;    
+     text-decoration:none;
+     color:#817e7e;
  }
  a:hover{
      text-decoration: underline;
